@@ -92,7 +92,7 @@ public class FortuneTellerFrame extends JFrame
                             int current;
 
                             Random rnd = new Random();
-                            current = rnd.nextInt(12);
+                            current = rnd.nextInt(11);
 
                             if (current == previousValue.prev && current >= 1) {
                                     current --;
