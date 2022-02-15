@@ -99,7 +99,7 @@ public class FortuneTellerFrame extends JFrame
 
 
                             } else {
-                                current --;
+                                current ++;
                             }
 
                             displayArea.append(fortunes[current] + "\n");
